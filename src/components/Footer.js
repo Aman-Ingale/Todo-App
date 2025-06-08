@@ -8,8 +8,7 @@ const Footer = () => (
         <div className="flex items-center space-x-2 w-20">
         <img src='assets/logo.png'></img>
       </div >
-      
-        <span className="text-sm text-gray-500">Subscribe to our newsletter for the latest features and updates delivered to you.</span>
+        <span className=" text-sm text-gray-500">Subscribe to our newsletter for the latest features and updates delivered to you.</span>
         <form className="flex mt-2">
           <input type="email" placeholder="Your email here" className="px-3 py-2 border border-gray-300 rounded-l focus:outline-none focus:ring-2 focus:ring-primary text-sm" />
           <button type="submit" className="px-4 py-2 bg-primary text-white rounded-r font-semibold hover:bg-primary-dark transition">Join</button>
